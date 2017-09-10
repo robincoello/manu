@@ -1,0 +1,17 @@
+**********************************************
+Esta funcion se caracteria por tener dos parametros 
+
+parametros 	1 parametro 
+para dos 	2 parametros 
+tres		3 parametros 
+
+
+
+**********************************************
+Latino - Documentacion 
+Funcion: leer()
+Latino: 1.0.0
+Manu v: 0.0.1
+Autor: robinson coello 
+*********************************************
+
