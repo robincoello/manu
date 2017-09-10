@@ -1,0 +1,27 @@
+limpiar()
+escribir("Esta es una prueba manual de uso de las funciones")
+escribir("Para ver el manual, debes escribir: 'latino manu <funcion>'")
+escribir("Que funcion desea ver?")
+
+f = leer()
+
+contenido = archivo.leer(f..".txt")
+si(contenido)
+
+/*
+
+elegir(f)
+  caso 'todas':
+      escribir("Documenation de escribir()")
+  caso 'leer':
+      escribir("Documentacion de leer")      
+  caso 'mayusculas':
+      escribir("Docs de mayuscumas")
+  caso 'minusculas':
+      escribir("Doc de minusculas")
+  caso 'sumar':
+      escribir("Dos de sumar")      
+  defecto:
+      escribir("***********************"fin
+fin
+

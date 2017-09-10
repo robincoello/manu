@@ -1,14 +1,15 @@
-limpiar()
+#!/usr/local/bin/latino   //shebang para latino, poner la ruta donde este instalado
 
-escribir("Que funcion desea ver el manual ?")
-
-f = leer()
-
-contenido = archivo.leer(f..".txt")
-
-si(contenido)
-	escribir(contenido)
-sino
-	escribir("Nombre de funcion no encontrada")
+//para ejecutar este comando:
+//latino manu.lat agregar
+//o chmod +x manu.lat y ejecutar directo en terminal
+// ./manu.lat agregar
+//funcion principal
+fun menu(argc, argv)
+  arch = argv[1] .. ".txt"  //el parametro 0 es el nombre de este script
+  contenido = archivo.leer(arch)
+  //aqui manipulo el contenido si es necesario
+  //...
+  poner(contenido)
+  ret 0
 fin
-
