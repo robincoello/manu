@@ -7,7 +7,10 @@ Esta basada en la doc oficial http://documentacion.lenguaje-latino.org/
 ```
 git clone https://github.com/robincoello/manu.git
 cd manu
-latino manu 
+```
+y para usar ejecutas 
+```
+latino manu leer
 
 ```
 
