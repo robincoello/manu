@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+redondear_abajo
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Coje el valor y lo redondea a la baja, lo que equibale a devlver el valor son decimales
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+valor sin decimales
 
 SINTAXIS
 ========
@@ -23,7 +23,7 @@ tres		3 parametros
 
 POSIBLES ERRORES
 ================
-
+Si usas  la coma en lugar del punto para separar los decimales de dara error
 
 
 EJEMPLOS
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: redondear_abajo()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+redis.hincrementar
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Incrementa cualquier valor deseado a una llave de Redis dentro de otra
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+El valor númerico ya aumentado
 
 SINTAXIS
 ========
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: redis.hincrementar()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

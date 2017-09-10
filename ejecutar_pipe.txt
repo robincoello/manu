@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+ejecutar_pipe
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Es parecido a la función sistema() pero a diferencia, éste, retornará la salida del comando para poder escribirla y/o imprimirla
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+retorno de la salida del comando si se le asigna un valor.
 
 SINTAXIS
 ========
@@ -23,7 +23,7 @@ tres		3 parametros
 
 POSIBLES ERRORES
 ================
-
+el carácter especial "\" debe ser escrito como "\\" así realizando su correcto escape.
 
 
 EJEMPLOS
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: ejecutar_pipe()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

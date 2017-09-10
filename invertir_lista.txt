@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+invertir_lista
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Invertirá una lista volteando los valores de final a inicio
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+La lista puesta pero con los valores invertidos
 
 SINTAXIS
 ========
@@ -23,7 +23,7 @@ tres		3 parametros
 
 POSIBLES ERRORES
 ================
-
+Obligatoriamente debe ser una lista
 
 
 EJEMPLOS
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: invertir_lista()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+redondear_arriba
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Redondea arriba, poco importa el valor del decimal, parasara al entero superior, tiene un máximo de 15 decimales
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+Valor entero inmediatamente superior 
 
 SINTAXIS
 ========
@@ -23,7 +23,7 @@ tres		3 parametros
 
 POSIBLES ERRORES
 ================
-
+Si usas la coma en lugar del punto de te dara error
 
 
 EJEMPLOS
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: redondear_arriba()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+valor_absoluto
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+El valor absoluto de un número entero es el número natural que resulta al suprimir su signo.
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+El valor absoluto de un número entero 
 
 SINTAXIS
 ========
@@ -23,7 +23,7 @@ tres		3 parametros
 
 POSIBLES ERRORES
 ================
-
+Si usas la coma para separar los decimales te dara error
 
 
 EJEMPLOS
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: valor_absoluto()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+redis.asignar
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Asigna un valor a una llave de Redis registrándola
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+valor nulo, solamente se registra la cadena escrita
 
 SINTAXIS
 ========
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: redis.asignar()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

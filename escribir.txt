@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+escribir
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Escribe todo lo que le pase como parametro, puede incluir funciones si desea
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+No entrega valor alguno
 
 SINTAXIS
 ========
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: escribir()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

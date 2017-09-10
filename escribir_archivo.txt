@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+escribir_archivo
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Crea un archivo, si existe lo rescribe, con esto puedes crear archivos con cualquier extención: .lat, .txt, .php .json, .js, etc
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+Buleano: 0 si no se pudo crear el archivo, 1 si el archivo fue creado
 
 SINTAXIS
 ========
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: escribir_archivo()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

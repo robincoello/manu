@@ -1,15 +1,15 @@
 
 FUNCTION
 ========
-leer
+logico
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Verifica si un valor tiene un valor lógico [verdadero o falso], falso es cero '0' y todo valor diferente a cero es verdadero
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+verdadero | falso
 
 SINTAXIS
 ========
@@ -31,7 +31,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: logico()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

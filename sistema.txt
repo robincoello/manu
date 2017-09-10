@@ -1,15 +1,16 @@
 
 FUNCTION
 ========
-leer
+sistema
 
 DESCRIPCION
 ===========
-Recoje un valor pasado desde la consola el cual lo guarda como una "cadena" son leidos todos los caracteres hasta que el archivo se termine o encuentre una nueva linea, tiene un limite de 254 caracteres 
+Ejecuta un comando externo en el sistema sin retornar la salida ( si así lo desea, vea función ejecutar_pipe() )
+
     
 VALOR QUE ENTREGA
 =================
-Si exito, entrega la cadena copiada, 
+ninguno (nulo)
 
 SINTAXIS
 ========
@@ -23,7 +24,7 @@ tres		3 parametros
 
 POSIBLES ERRORES
 ================
-
+Si se ejecuta un comando que no existe en el sistema (windows, linux) marcará un error
 
 
 EJEMPLOS
@@ -31,7 +32,7 @@ EJEMPLOS
 xxxxx
 
 **********************************************
-Funcion	: leer()
+Funcion	: sistema()
 Latino	: 1.0.0
 Manu v	: 0.0.1
 Autor	: Robinson Coello 

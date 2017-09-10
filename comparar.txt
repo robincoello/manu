@@ -1,0 +1,45 @@
+
+FUNCTION
+========
+comparar
+
+DESCRIPCION
+===========
+Esta función empieza comparado el primer caracter de la frase1 con el primer caracter de la frase2, si son iguales continua la comparación con los caracteres siguientes hasta que sean diferentes o hasta que termina una de las dos frases, la compración se realiza en base al número que ocupa este caracter en la tabla ascii y comprar estos números, realiza una resta y devuelve el resultado.
+
+Tres resultados posibles: 
+<0, inferior a cero,  si la segunda frase es superior
+0: cero si son iguales
+>0: inferior a cero: si la segunda frase es inferior
+    
+VALOR QUE ENTREGA
+=================
+Valor númerico
+
+SINTAXIS
+========
+
+
+PARAMETROS
+==========
+parametros 	1 parametro 
+para dos 	2 parametros 
+tres		3 parametros 
+
+POSIBLES ERRORES
+================
+
+
+
+EJEMPLOS
+========
+xxxxx
+
+**********************************************
+Funcion	: comparar()
+Latino	: 1.0.0
+Manu v	: 0.0.1
+Autor	: Robinson Coello 
+Fecha	: 10 sept 2017 
+*********************************************
+http://documentacion.lenguaje-latino.org/    
