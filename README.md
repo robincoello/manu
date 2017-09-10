@@ -14,4 +14,4 @@ latino manu leer
 
 ```
 
-y escribes el nombre de la funcion que deseas el manual
+en lugar de ```leer``` pones el nombre de la funcion que deseas el manual
