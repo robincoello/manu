@@ -5,11 +5,21 @@
 //o chmod +x manu.lat y ejecutar directo en terminal
 // ./manu.lat agregar
 //funcion principal
+
 fun menu(argc, argv)
   arch = argv[1] .. ".txt"  //el parametro 0 es el nombre de este script
   contenido = archivo.leer(arch)
-  //aqui manipulo el contenido si es necesario
-  //...
-  poner(contenido)
+
+
+
+
+
+
+
+	si (contenido)
+		poner(contenido) 
+	sino
+		poner("Nombre de la funcion no encontrada")
+	fin
   ret 0
 fin
