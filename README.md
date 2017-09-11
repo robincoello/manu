@@ -33,7 +33,8 @@ sudo mv *.txt ~/manual
 y listo! 
 
 
-
+## todo 
+poner los ejemplos y los parametros que aun falta 
 
 
 
